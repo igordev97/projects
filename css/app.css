@@ -77,8 +77,9 @@ nav .nav-link:hover {
   }
 }
 
-#popular-products {
+#products {
   padding: 2rem;
+  margin-bottom: 5rem;
 }
 
 .card > img {
@@ -90,14 +91,56 @@ nav .nav-link:hover {
   cursor: pointer;
   filter: blur(0.1rem);
 }
-#popular-products #see-more-btn {
+#products #see-more-btn {
   margin-top: 5rem;
   border-radius: 5rem;
   border: 3px solid #222;
   color: #222;
 }
-#popular-products #see-more-btn:hover::before {
+#products #see-more-btn:hover::before {
 }
-#popular-products #see-more-btn:hover {
+#products #see-more-btn:hover {
   transform: translateY(-5px);
+}
+
+#left,
+#right {
+  color: #fff;
+  font-weight: 500;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+#left:hover,
+#right:hover {
+  filter: blur(1px);
+}
+#left::before,
+#right::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #22222248;
+  z-index: -1;
+}
+
+#left h1,
+#right h1 {
+  font-size: 4.8rem;
+  text-shadow: 1px 1px 10px #222;
+}
+
+#left {
+  background-image: url('../img/Outdoor.jpg');
+}
+
+#right {
+  background-image: url('../img/christmas_tree.jpg');
 }
