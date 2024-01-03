@@ -9,6 +9,11 @@ html {
   font-size: 10px;
   font-family: 'Inter', sans-serif;
 }
+body {
+  background: url('../img/bg.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #nav {
   background-color: #dd0a2d;
 }
