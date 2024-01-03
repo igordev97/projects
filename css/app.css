@@ -18,9 +18,13 @@ nav {
 }
 nav #brand-logo {
   font-size: 2.8rem;
+  color: #fff;
 }
 nav .nav-link {
   color: #fff;
+}
+nav .navbar-toggler {
+  background-color: #fff;
 }
 nav .nav-link:hover {
   color: rgba(240, 248, 255, 0.596);
