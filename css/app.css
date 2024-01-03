@@ -81,7 +81,16 @@ nav .nav-link:hover {
   padding: 2rem;
   margin-bottom: 5rem;
 }
-
+.card {
+  padding: 0.5rem;
+}
+.card h2 {
+  font-size: 1.6rem;
+  color: rgb(99, 99, 99);
+}
+.card h3 {
+  color: rgb(151, 151, 151);
+}
 .card > img {
   height: 250px;
   transition: filter 0.3s ease;
