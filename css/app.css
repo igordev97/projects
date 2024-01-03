@@ -34,7 +34,7 @@ nav .nav-link:hover {
   color: #fff;
   font-size: 6.2rem;
 }
-#leading #see-more-btn {
+#see-more-btn {
   padding: 1rem 2rem;
   border: 0.2rem solid #fff;
   font-weight: 700;
@@ -64,4 +64,29 @@ nav .nav-link:hover {
   #leading h1 {
     font-size: 3rem;
   }
+}
+
+#popular-products {
+  padding: 2rem;
+}
+
+.card > img {
+  height: 250px;
+  transition: filter 0.3s ease;
+}
+
+.card:hover img {
+  cursor: pointer;
+  filter: blur(0.1rem);
+}
+#popular-products #see-more-btn {
+  margin-top: 5rem;
+  border-radius: 5rem;
+  border: 3px solid #222;
+  color: #222;
+}
+#popular-products #see-more-btn:hover::before {
+}
+#popular-products #see-more-btn:hover {
+  transform: translateY(-5px);
 }
