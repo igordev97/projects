@@ -160,3 +160,18 @@ nav .nav-link:hover {
     font-size: 2.8rem;
   }
 }
+
+.badge-img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid #797979;
+  padding: 1rem;
+}
+
+#payments h2 {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
